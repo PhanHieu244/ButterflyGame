@@ -10,7 +10,7 @@ namespace _Game.ChuongScripts.Scripts.Runtime
 
         private void OnTriggerEnter2D(Collider2D col)
         {
-            Debug.Log($"trigger {col.name}");
+            //Debug.Log($"trigger {col.name}");
             if (!col.tag.Equals("ball")) return;
             if (col.isTrigger) return;
             warningLose++;
@@ -19,7 +19,7 @@ namespace _Game.ChuongScripts.Scripts.Runtime
 
         private void OnTriggerStay2D(Collider2D col)
         {
-            Debug.Log($"trigger {col.name}");
+            //Debug.Log($"trigger {col.name}");
             if (!col.tag.Equals("ball")) return;
             if (col.isTrigger) return;
             time += Time.fixedDeltaTime;
@@ -34,7 +34,7 @@ namespace _Game.ChuongScripts.Scripts.Runtime
             if (!other.tag.Equals("ball")) return;
             if (other.isTrigger) return;
             warningLose--;
-            Debug.Log($"count {warningLose}");
+            //Debug.Log($"count {warningLose}");
             if (warningLose <= 0)
             {
                 time = 0;

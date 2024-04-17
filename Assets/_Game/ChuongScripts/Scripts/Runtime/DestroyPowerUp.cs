@@ -12,8 +12,12 @@ namespace _Game.ChuongScripts.Scripts.Runtime
         public override void Active()
         {
             _isActive = !_isActive;
-            numBg.gameObject.SetActive(_isActive);
-            if(!_isActive) return;
+            numBg.gameObject.SetActive(!_isActive);
+            if (!_isActive)
+            {
+                InputInGame.Instance.ToGameInput();
+                return;
+            }
             InputInGame.Instance.ToPowerUpInput();
         }
 

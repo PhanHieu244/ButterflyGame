@@ -1264,6 +1264,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4086742681424954429}
     m_Modifications:
+    - target: {fileID: 1941855411075968995, guid: 54cc83cdb9a773344b161a406ed7e3c0, type: 3}
+      propertyPath: productID
+      value: mua_powerup_goi_1
+      objectReference: {fileID: 0}
     - target: {fileID: 3001036490983441697, guid: 54cc83cdb9a773344b161a406ed7e3c0, type: 3}
       propertyPath: m_Name
       value: ProductItem
@@ -1499,7 +1503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5cf4da958e641d5b6382ee876d858f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productID: mua_vang_goi_6
+  productID: mua_revive_goi_6
   buttonClick: {fileID: 1921327318703321195}
   price: {fileID: 8854490770473034110}
   valueTMP: {fileID: 3730987822877450676}
@@ -1661,7 +1665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5cf4da958e641d5b6382ee876d858f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  productID: mua_vang_goi_5
+  productID: mua_revive_goi_5
   buttonClick: {fileID: 3508111434822520123}
   price: {fileID: 5829845630150810670}
   valueTMP: {fileID: 1855936523794291940}
@@ -1714,7 +1718,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1941855411075968995, guid: 54cc83cdb9a773344b161a406ed7e3c0, type: 3}
       propertyPath: productID
-      value: mua_vang_goi_2
+      value: mua_powerup_goi_2
       objectReference: {fileID: 0}
     - target: {fileID: 1941855411075968995, guid: 54cc83cdb9a773344b161a406ed7e3c0, type: 3}
       propertyPath: serializationData.Prefab
@@ -1824,7 +1828,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1941855411075968995, guid: 54cc83cdb9a773344b161a406ed7e3c0, type: 3}
       propertyPath: productID
-      value: mua_vang_goi_3
+      value: mua_powerup_goi_3
       objectReference: {fileID: 0}
     - target: {fileID: 1941855411075968995, guid: 54cc83cdb9a773344b161a406ed7e3c0, type: 3}
       propertyPath: serializationData.Prefab
@@ -1934,7 +1938,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1941855411075968995, guid: 54cc83cdb9a773344b161a406ed7e3c0, type: 3}
       propertyPath: productID
-      value: mua_vang_goi_4
+      value: mua_powerup_goi_4
       objectReference: {fileID: 0}
     - target: {fileID: 1941855411075968995, guid: 54cc83cdb9a773344b161a406ed7e3c0, type: 3}
       propertyPath: serializationData.Prefab

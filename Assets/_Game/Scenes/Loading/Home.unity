@@ -676,22 +676,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data:
-  - productID: mua_vang_goi_1
+  - productID: mua_powerup_goi_1
     price: 0.99$
     value: 5
-  - productID: mua_vang_goi_2
+  - productID: mua_powerup_goi_2
     price: 1.99$
     value: 10
-  - productID: mua_vang_goi_3
+  - productID: mua_powerup_goi_3
     price: 3.99$
     value: 20
-  - productID: mua_vang_goi_4
+  - productID: mua_powerup_goi_4
     price: 9.99$
     value: 50
-  - productID: mua_vang_goi_5
+  - productID: mua_revive_goi_5
     price: 1.99$
     value: 5
-  - productID: mua_vang_goi_6
+  - productID: mua_revive_goi_6
     price: 3.99$
     value: 10
 --- !u!1660057539 &9223372036854775807

@@ -16,6 +16,13 @@ namespace ChuongCustom
             popupPosition.width -= EditorGUIUtility.labelWidth;
             popupPosition.x += EditorGUIUtility.labelWidth;
             popupPosition.height = EditorGUIUtility.singleLineHeight;
+            
+            if (property.stringValue != null) {
+                if (!IAPDropDownPopup.INVERSE_CATALOG.ContainsKey(property.stringValue))
+                {
+                    property.stringValue = null;
+                }
+            }
 
             if (property.stringValue == null) {
                 Update(string.Empty, property);

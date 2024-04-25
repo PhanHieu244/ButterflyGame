@@ -678,22 +678,16 @@ MonoBehaviour:
   data:
   - productID: mua_powerup_goi_1
     price: 0.99$
-    value: 5
+    value: 2
   - productID: mua_powerup_goi_2
-    price: 1.99$
-    value: 10
+    price: 2.99$
+    value: 15
   - productID: mua_powerup_goi_3
-    price: 3.99$
-    value: 20
+    price: 4.99$
+    value: 25
   - productID: mua_powerup_goi_4
     price: 9.99$
     value: 50
-  - productID: mua_revive_goi_5
-    price: 1.99$
-    value: 5
-  - productID: mua_revive_goi_6
-    price: 3.99$
-    value: 10
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
